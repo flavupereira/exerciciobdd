@@ -69,4 +69,73 @@ resources/
 
   Execute a classe RunCucumberTest localizada em cucumber.resources.
 
+## 📝 Cenários de Teste
+
+ ### Feature: Cadastro
+**Cenário: Usuário faz login com sucesso**
+
+- Dado que o usuário está na página de login
+
+- Quando o usuário preenche o campo username com "tomsmith"
+
+- E o usuário preenche o campo password com "SuperSecretPassword!"
+
+- E o usuário clica no botão de login
+
+- Então o usuário deve ser redirecionado para a página home
+
+- E uma mensagem de boas-vindas deve ser exibida
+
+## 🎯 Funcionalidades Implementadas
+
+ ## Pages Objects
+ 
+- **BasePage:** Classe base com configuração do WebDriver
+
+- **SingUpPage:** Contém métodos para interagir com a página de login:
+
+   Preenchimento de campos
+
+   Clique em elementos
+
+   Verificação de URLs
+
+   Validação de mensagens
+
+###Step Definitions
+  
+Mapeia os passos do Gherkin para ações de automação:
+
+- Navegação para a página de login
+
+- Preenchimento de formulários
+
+- Submissão do formulário
+
+- Validações de redirecionamento e mensagens
+
+## 📊 Resultados dos Testes
+
+Os testes são executados via JUnit e geram relatórios no formato XML. O projeto está 
+configurado para executar 2 cenários de teste com sucesso.
+
+## ⚙️ Configuração do Ambiente de Desenvolvimento
+
+O projeto inclui configuração para VS Code no arquivo settings.json:
+
+- Atualização automática da configuração de build
+
+- Análise de nulos automática
+
+## 🔄 Fluxo de Trabalho
+
+1. Escrever cenários em Gherkin no arquivo .feature
+
+2. Implementar step definitions mapeando os passos
+
+3. Desenvolver page objects para interação com a aplicação
+
+4. Executar testes via Maven ou IDE
+
+5. Analisar resultados e relatórios
   
