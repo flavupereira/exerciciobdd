@@ -1,4 +1,4 @@
-## Projeto de Automação de Testes BDD com Cucumber e Selenium
+  ## **Projeto de Automação de Testes BDD com Cucumber e Selenium**
 
 Este projeto implementa testes de automação web utilizando a metodologia BDD 
 (Behavior-Driven Development) com Cucumber e Selenium WebDriver.
@@ -36,10 +36,11 @@ resources/
 └── cucumber.resources/
     └── login.feature
 
-  ## 🔧 Configuração
+## 🔧 Configuração
+  
 **Pré-requisitos** 
 
--Java 21
+- Java 21
 
 - Maven 3.6+
 
@@ -47,7 +48,7 @@ resources/
 
 ## Dependências Maven
 
-As principais dependências estão configuradas no pom.xml:
+**As principais dependências estão configuradas no pom.xml:**
 
 - **cucumber-java (7.16.1)** - Implementação do Cucumber
 
@@ -56,3 +57,16 @@ As principais dependências estão configuradas no pom.xml:
 - **selenium-java (4.20.0)** - Automação web
 
 - **junit (4.11)** - Framework de testes
+
+  ## 🚀 Executando os Testes
+
+  ### Via Maven
+
+  ```
+  mvn test
+  ```
+  ### Via IDE
+
+  Execute a classe RunCucumberTest localizada em cucumber.resources.
+
+  
