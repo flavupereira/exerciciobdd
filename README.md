@@ -58,7 +58,7 @@ resources/
 
 - **junit (4.11)** - Framework de testes
 
-  ## 🚀 Executando os Testes
+## 🚀 Executando os Testes
 
   ### Via Maven
 
@@ -102,7 +102,7 @@ resources/
 
    Validação de mensagens
 
-###Step Definitions
+### Step Definitions
   
 Mapeia os passos do Gherkin para ações de automação:
 
