@@ -20,22 +20,6 @@ autenticação de usuários na página The Internet Herokuapp.
 
 - JUnit - Framework de testes
 
-  ## 📁 Estrutura do Projeto
-
-  src/
-├── main/java/com.example/
-│   └── Main.java
-└── test/java/
-    ├── cucumber.pages/
-    │   ├── BasePage.java
-    │   └── SingUpPage.java
-    └── cucumber.resources/
-        ├── RunCucumberTest.java
-        └── StepDefinitions.java
-resources/
-└── cucumber.resources/
-    └── login.feature
-
 ## 🔧 Configuração
   
 **Pré-requisitos** 
